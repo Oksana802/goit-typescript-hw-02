@@ -1,7 +1,6 @@
 export interface Img {
   id: string;
   url: string;
-  title: string;
   alt_description?: string;
   description?: string;
   likes: number;
