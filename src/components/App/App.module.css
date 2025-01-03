@@ -4,3 +4,9 @@
   max-width: 100vw;
   text-align: center;
 }
+
+.noResults {
+  font-weight: 600;
+  font-size: 24px;
+  color: rgb(250, 94, 4);
+}

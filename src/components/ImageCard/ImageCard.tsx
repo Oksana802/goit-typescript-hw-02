@@ -1,5 +1,13 @@
+import { FC } from "react";
+import { Img } from "../App/App.types";
 import s from "./ImageCard.module.css";
-const ImageCard = ({ image, onClickOpenModal }) => {
+
+interface ImageCardProps {
+  image: Img;
+  onClickOpenModal: () => void;
+}
+
+const ImageCard: FC<ImageCardProps> = ({ image, onClickOpenModal }) => {
   return (
     <li className={s.box}>
       <img
